@@ -34,7 +34,9 @@ Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
-`````
+
+``````
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -105,12 +107,12 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-`````
+
+``````
 
 <H3>OUTPUT:</H3>
 
-![325178780-982a6bd8-41f5-4905-b632-ad7f6e0852f1](https://github.com/thrikesh/Ex-5--NN/assets/119576222/6933e3d4-8de7-4c7e-a804-5f82c40c4f1b)
-
+https://private-user-images.githubusercontent.com/119479566/325178780-982a6bd8-41f5-4905-b632-ad7f6e0852f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM5NzE4NzEsIm5iZiI6MTcxMzk3MTU3MSwicGF0aCI6Ii8xMTk0Nzk1NjYvMzI1MTc4NzgwLTk4MmE2YmQ4LTQxZjUtNDkwNS1iNjMyLWFkN2Y2ZTA4NTJmMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQyNFQxNTEyNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYjZhZDY1ZGEyNDNkY2ZkNzI1ZTVmNWU0ZGIxYmRjMzJhYjYyNWZmZmZkYTFiOGU2MjgzMGExOGQ5MTM0NjBjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.pzbzh2d145vgN6GZAqPQWAFbvCXuQW6BQ-gSEyrKg28
 
 <H3>Result:</H3>
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
